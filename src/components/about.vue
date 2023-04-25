@@ -20,7 +20,7 @@
 </script>
 
 <template>
-    <div class="container rounded-lg w-[650px] m-2 relative mb-24" style="background-color: #2A2A2A;">
+    <div class="container rounded-lg w-[700px] m-2 relative mb-24" style="background-color: #2A2A2A;">
         <div class="flex flex-row">
             <div class="container flex justify-start text-white p-2 pl-4 italic">
                 <h2>About Me</h2>
