@@ -12,6 +12,9 @@ export default {
       aboutLine5: false,
       aboutLine6: false,
       aboutLine7: false,
+      aboutLine8: false,
+      aboutLine9: false,
+      aboutLine10: false,
       displayAbout: true,
     };
   },
@@ -91,20 +94,13 @@ export default {
       </div>
 
       <!-- block 4 -->
-      <div class="pl-6 flex flex-row">
+      <div class="text-[#69C06C] italic pl-6 flex flex-wrap">
         <colorText
-          :printSpeed="20"
+          :printSpeed="40"
           :printStatus="aboutLine4"
           @printDone="aboutLine5 = true"
-          printableText="Github: "
+          printableText="// My Github repository! Here you can find a more detailed list of my projects."
         ></colorText>
-        <a
-          v-if="aboutLine5"
-          class="text-400"
-          href="https://github.com/Onion-JPG/portfolio"
-          target="_blank"
-          >github.com/Onion-JPG/portfolio</a
-        >
       </div>
 
       <!-- block 5 -->
@@ -113,10 +109,37 @@ export default {
           :printSpeed="20"
           :printStatus="aboutLine5"
           @printDone="aboutLine6 = true"
-          printableText="LinkedIn: "
+          printableText="Github: "
         ></colorText>
         <a
           v-if="aboutLine6"
+          class="text-400"
+          href="https://github.com/Onion-JPG/portfolio"
+          target="_blank"
+          >github.com/Onion-JPG/portfolio</a
+        >
+      </div>
+
+      <!-- block 6 -->
+      <div class="text-[#69C06C] italic pl-6 flex flex-wrap">
+        <colorText
+          :printSpeed="40"
+          :printStatus="aboutLine6"
+          @printDone="aboutLine7 = true"
+          printableText="// Connect with me on linkedin!"
+        ></colorText>
+      </div>
+
+      <!-- block 7 -->
+      <div class="pl-6 flex flex-row">
+        <colorText
+          :printSpeed="20"
+          :printStatus="aboutLine7"
+          @printDone="aboutLine8 = true"
+          printableText="LinkedIn: "
+        ></colorText>
+        <a
+          v-if="aboutLine8"
           class="text-400 underline"
           href="https://www.linkedin.com/in/caden-citro/"
           target="_blank"
@@ -124,16 +147,26 @@ export default {
         >
       </div>
 
-      <!-- block 5 -->
+      <!-- block 8 -->
+      <div class="text-[#69C06C] italic pl-6 flex flex-wrap">
+        <colorText
+          :printSpeed="40"
+          :printStatus="aboutLine8"
+          @printDone="aboutLine9 = true"
+          printableText="// A link to the Varsity program website I help develop and maintain."
+        ></colorText>
+      </div>
+
+      <!-- block 9 -->
       <div class="pl-6 flex flex-row">
         <colorText
           :printSpeed="20"
-          :printStatus="aboutLine6"
-          @printDone="aboutLine7 = true"
-          printableText="Example of Work: "
+          :printStatus="aboutLine9"
+          @printDone="aboutLine10 = true"
+          printableText="Varsity Esports Website: "
         ></colorText>
         <a
-          v-if="aboutLine7"
+          v-if="aboutLine10"
           class="text-400 underline"
           href="https://redhawks.gg/"
           target="_blank"
@@ -141,11 +174,11 @@ export default {
         >
       </div>
 
-      <!-- block 6 -->
+      <!-- block 10 -->
       <div class="pl-3">
         <colorText
           :printSpeed="20"
-          :printStatus="aboutLine7"
+          :printStatus="aboutLine10"
           printableText="}"
         ></colorText>
       </div>

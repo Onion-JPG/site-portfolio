@@ -716,12 +716,21 @@ video {
   padding-left: 1rem;
 }
 
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .italic {
   font-style: italic;
+}
+
+.text-\[\#69C06C\] {
+  --tw-text-opacity: 1;
+  color: rgb(105 192 108 / var(--tw-text-opacity));
 }
 
 .text-\[\#FFB0AE\] {
@@ -732,6 +741,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .antialiased {
