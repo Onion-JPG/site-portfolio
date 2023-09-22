@@ -31,7 +31,6 @@ export default {
   .pl-6 {
     padding-left: 1.5rem;
   }
-
 </style>
 
 <template>
@@ -60,7 +59,7 @@ export default {
     </div>
 
     <div
-      class="container bg-slate-400 min-h-[260px] rounded-bl-lg rounded-br-lg text-white p-2 font-mono"
+      class="container bg-slate-400 min-h-[320px] rounded-bl-lg rounded-br-lg text-white p-2 font-mono"
       style="background-color: #191919"
     >
       <!-- block 1 -->
@@ -96,7 +95,7 @@ export default {
       <!-- block 4 -->
       <div class="text-[#69C06C] italic pl-6 flex flex-wrap">
         <colorText
-          :printSpeed="40"
+          :printSpeed="10"
           :printStatus="aboutLine4"
           @printDone="aboutLine5 = true"
           printableText="// My Github repository! Here you can find a more detailed list of my projects."
@@ -123,7 +122,7 @@ export default {
       <!-- block 6 -->
       <div class="text-[#69C06C] italic pl-6 flex flex-wrap">
         <colorText
-          :printSpeed="40"
+          :printSpeed="10"
           :printStatus="aboutLine6"
           @printDone="aboutLine7 = true"
           printableText="// Connect with me on linkedin!"
@@ -150,7 +149,7 @@ export default {
       <!-- block 8 -->
       <div class="text-[#69C06C] italic pl-6 flex flex-wrap">
         <colorText
-          :printSpeed="40"
+          :printSpeed="10"
           :printStatus="aboutLine8"
           @printDone="aboutLine9 = true"
           printableText="// A link to the Varsity program website I help develop and maintain."
