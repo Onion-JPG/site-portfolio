@@ -33,7 +33,6 @@ export default {
   .pl-6 {
     padding-left: 1.5rem;
   }
-
 </style>
 
 <template>
