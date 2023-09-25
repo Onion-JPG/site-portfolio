@@ -15,6 +15,8 @@ export default {
       aboutLine8: false,
       aboutLine9: false,
       aboutLine10: false,
+      aboutLine11: false,
+      aboutLine12: false,
       displayAbout: true,
     };
   },
@@ -60,7 +62,7 @@ export default {
     </div>
 
     <div
-      class="container bg-slate-400 min-h-[260px] rounded-bl-lg rounded-br-lg text-white p-2 font-mono"
+      class="container bg-slate-400 min-h-[310px] rounded-bl-lg rounded-br-lg text-white p-2 font-mono"
       style="background-color: #191919"
     >
       <!-- block 1 -->
@@ -96,7 +98,7 @@ export default {
       <!-- block 4 -->
       <div class="text-[#69C06C] italic pl-6 flex flex-wrap">
         <colorText
-          :printSpeed="40"
+          :printSpeed="10"
           :printStatus="aboutLine4"
           @printDone="aboutLine5 = true"
           printableText="// My Github repository! Here you can find a more detailed list of my projects."
@@ -123,7 +125,7 @@ export default {
       <!-- block 6 -->
       <div class="text-[#69C06C] italic pl-6 flex flex-wrap">
         <colorText
-          :printSpeed="40"
+          :printSpeed="10"
           :printStatus="aboutLine6"
           @printDone="aboutLine7 = true"
           printableText="// Connect with me on linkedin!"
@@ -150,7 +152,7 @@ export default {
       <!-- block 8 -->
       <div class="text-[#69C06C] italic pl-6 flex flex-wrap">
         <colorText
-          :printSpeed="40"
+          :printSpeed="10"
           :printStatus="aboutLine8"
           @printDone="aboutLine9 = true"
           printableText="// A link to the Varsity program website I help develop and maintain."
@@ -170,15 +172,42 @@ export default {
           class="text-400 underline"
           href="https://redhawks.gg/"
           target="_blank"
-          >redhawks.gg</a
+          >Redhawks.gg</a
         >
       </div>
 
       <!-- block 10 -->
+      <div class="text-[#69C06C] italic pl-6 flex flex-wrap">
+        <colorText
+          :printSpeed="10"
+          :printStatus="aboutLine10"
+          @printDone="aboutLine11 = true"
+          printableText="// A link to my itch.io website where I post games I make."
+        ></colorText>
+      </div>
+
+      <!-- block 11 -->
+      <div class="pl-6 flex flex-row">
+        <colorText
+          :printSpeed="20"
+          :printStatus="aboutLine11"
+          @printDone="aboutLine12 = true"
+          printableText="Itch.io site: "
+        ></colorText>
+        <a
+          v-if="aboutLine12"
+          class="text-400 underline"
+          href="https://onion-jpg.itch.io//"
+          target="_blank"
+          >onion-jpg.itch.io</a
+        >
+      </div>
+
+      <!-- block 12 -->
       <div class="pl-3">
         <colorText
           :printSpeed="20"
-          :printStatus="aboutLine10"
+          :printStatus="aboutLine12"
           printableText="}"
         ></colorText>
       </div>
