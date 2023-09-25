@@ -114,7 +114,7 @@ export default {
         ></colorText>
         <a
           v-if="aboutLine6"
-          class="text-400"
+          class="text-400 underline"
           href="https://github.com/Onion-JPG/portfolio"
           target="_blank"
           >github.com/Onion-JPG/portfolio</a
