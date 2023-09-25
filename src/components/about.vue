@@ -117,7 +117,7 @@ export default {
           class="text-400 underline"
           href="https://github.com/Onion-JPG/portfolio"
           target="_blank"
-          >github.com/Onion-JPG/portfolio</a
+          >Github.com/Onion-JPG/portfolio</a
         >
       </div>
 
@@ -144,7 +144,7 @@ export default {
           class="text-400 underline"
           href="https://www.linkedin.com/in/caden-citro/"
           target="_blank"
-          >linkedin.com/in/caden-citro/</a
+          >Linkedin.com/in/caden-citro/</a
         >
       </div>
 
@@ -198,7 +198,7 @@ export default {
           class="text-400 underline"
           href="https://onion-jpg.itch.io//"
           target="_blank"
-          >onion-jpg.itch.io</a
+          >Onion-jpg.itch.io</a
         >
       </div>
 
