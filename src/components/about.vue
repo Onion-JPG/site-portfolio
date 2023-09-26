@@ -41,6 +41,9 @@ export default {
     [class*="m-2"] {
       margin: 0rem;
     }
+    [class*="min-h-[310px]"] {
+      height: 400px;
+    }
   }
 </style>
 
