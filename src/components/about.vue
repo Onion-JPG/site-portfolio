@@ -33,6 +33,15 @@ export default {
   .pl-6 {
     padding-left: 1.5rem;
   }
+
+  @media only screen and (max-width: 768px) {
+    [class*="w-[700px]"] {
+      width: 100%;
+    }
+    [class*="m-2"] {
+      margin: 0rem;
+    }
+  }
 </style>
 
 <template>
