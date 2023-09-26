@@ -41,8 +41,17 @@ export default {
     [class*="m-2"] {
       margin: 0rem;
     }
+  }
+
+  @media only screen and (max-width: 430px) {
+    [class*="w-[700px]"] {
+      width: 100%;
+    }
+    [class*="m-2"] {
+      margin: 0rem;
+    }
     [class*="min-h-[310px]"] {
-      height: 400px;
+      height: 570px;
     }
   }
 </style>
