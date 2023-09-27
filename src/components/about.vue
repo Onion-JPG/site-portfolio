@@ -121,7 +121,7 @@ export default {
           :printSpeed="10"
           :printStatus="aboutLine4"
           @printDone="aboutLine5 = true"
-          printableText="// My Github repository! Here you can find a more detailed list of my projects."
+          printableText="// My Github repository! Here you can find a list of my projects."
         ></colorText>
       </div>
 
